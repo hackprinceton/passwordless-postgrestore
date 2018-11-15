@@ -1,6 +1,6 @@
 {
   "name": "passwordless-postgrestore",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "PostgreSQL TokenStore for Passwordless",
   "main": "index.js",
   "scripts": {
@@ -22,7 +22,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Battochon/passwordless-postgrestore.git"
+    "url": "https://github.com/hackprinceton/passwordless-postgrestore.git"
   },
   "keywords": [
     "postgresql",
@@ -33,10 +33,10 @@
     "store",
     "tokenstore"
   ],
-  "author": "Bruno MARQUES <bruno@lookup-media.com> (http://marques.io)",
+  "author": "Casey Chow <casey.chow@princeton.edu>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/battochon/passwordless-postgrestore/issues"
+    "url": "https://github.com/hackprinceton/passwordless-postgrestore/issues"
   },
-  "homepage": "https://github.com/battochon/passwordless-postgrestore"
+  "homepage": "https://github.com/hackprinceton/passwordless-postgrestore"
 }
