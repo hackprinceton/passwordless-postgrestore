@@ -7,7 +7,7 @@
     "test": "grunt test"
   },
   "dependencies": {
-    "bcrypt": "^1.0.2",
+    "bcrypt": "^3.0.2",
     "passwordless-tokenstore": "0.0.10",
     "pg": "^6.4.0"
   },
@@ -16,7 +16,7 @@
     "chance": "^1.0.10",
     "grunt": "^1.0.1",
     "grunt-mocha-test": "^0.13.2",
-    "mocha": "^3.4.2",
+    "mocha": "^5.2.0",
     "node-uuid": "^1.4.1",
     "passwordless-tokenstore-test": "^0.1.4"
   },

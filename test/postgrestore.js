@@ -16,8 +16,9 @@ function TokenStoreFactory(options) {
 	return new PostgreStore(conString, options);
 }
 
-var conString = 'postgres://localhost';
-var pgClient = new pg.Pool(conString);
+var pgClient = new pg.Pool({
+	database: 'passwordless'
+});
 
 pgClient.connect(function (err) {
 	if (err) {
@@ -122,7 +123,7 @@ describe('Specific tests', function() {
 								done();
 							});
 						});
-				})
+				});
 			});
 	});
 });
